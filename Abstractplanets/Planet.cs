@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 * Version: 0.2 - Added constructor and overridden method.
 */
 
-namespace Assignment4_AbstractPlanets
+namespace Abstractplanets
 {
 	
 	public abstract class Planet
