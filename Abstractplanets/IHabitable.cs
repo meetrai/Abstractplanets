@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 /* Name: Manmeet Singh
 * Date: July 28,2017
 * Description: The IHabitable interface.
-* Version: 0.1 - Created IHabitable Interface
+* Version: 0.2 - Added Habitable Method.
 */
 
 namespace Abstractplanets
 {
-	
+	interface IHabitable
+	{
+		bool Habitable();
+	}
 
 }
