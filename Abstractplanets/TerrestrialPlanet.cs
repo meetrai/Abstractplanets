@@ -7,13 +7,23 @@ using System.Threading.Tasks;
 * Date: July 28,2017
 * Description:It is a subclass of the Planet Abstract class. The class will also 
 implement both the IHasMoons and IHabitable interfaces.
-* Version: 0.2 - Added Private instance variables
+* Version: 0.3 - Added Constructor
 */
 namespace Abstractplanets
 {
-	class TerrestrialPlanet 
+	class TerrestrialPlanet : Planet
 	{
 		/*Private Instance Varibales*/
 		private bool _oxygen;
+		/*Public Constructor*/
+		public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen)
+			   : base(name, diameter, mass)
+		{
+			this._oxygen = oxygen;
+		}
+
+
+
+
 	}
 }
