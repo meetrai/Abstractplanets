@@ -117,9 +117,9 @@ namespace Abstractplanets
 
 		public override string ToString()
 		{
-			string String = "";
+			string String = String.Empty;
 
-			String = "Name of the planet:" + Name + "\n" + "Diameter of the planet:" + Diameter + "\n" + "Mass of the planet:" + Mass + "M" + "\n";
+			String = "Name of the planet:" + Name + "\n" + "Diameter of the planet:" + Diameter +"Km" + "\n" + "Mass of the planet:" + Mass + "M" + "\n";
 
 			return String;
 

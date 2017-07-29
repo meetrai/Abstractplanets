@@ -16,16 +16,21 @@ namespace Abstractplanets
 	{
 		static void Main(string[] args)
 		{
-				//GiantPlanet object
-				GiantPlanet giantPlanet = new GiantPlanet("MARS", 190000, Convert.ToDouble(1.777 * Math.Pow(7, 18)), "Gas");
+		
+			//GiantPlanet object
+			GiantPlanet giantPlanet = new GiantPlanet("MARS", 190000, Convert.ToDouble(1.777 * Math.Pow(7, 18)), "Gas");
+			Console.WriteLine("********************************************************************************************");
 				// Printing GiantPlanet object
 				Console.WriteLine(giantPlanet.ToString());
-				//TerrestrialPlanet object
-				TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("EARTH", 11000, Convert.ToDouble(7.992 * Math.Pow(8, 19)), true);
-				//Printing terrestrialPlanet object 
-				Console.WriteLine(terrestrialPlanet.ToString());
-				//Read key function
-				Console.ReadKey();
+			Console.WriteLine("********************************************************************************************");
+			//TerrestrialPlanet object
+			TerrestrialPlanet terrestrialPlanet = new TerrestrialPlanet("EARTH", 11000, Convert.ToDouble(7.992 * Math.Pow(8, 19)), true);
+			Console.WriteLine("********************************************************************************************");
+			//Printing terrestrialPlanet object 
+			Console.WriteLine(terrestrialPlanet.ToString());
+			Console.WriteLine("********************************************************************************************");
+			//Read key function
+			Console.ReadKey();
 		}
 	}
 }
