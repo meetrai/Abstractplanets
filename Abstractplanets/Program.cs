@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 * Name: Manmeet Singh
 * Date: July 28,2017
 * Description: The driver program class.
-* Version: 0.2 - Added GiantPlanet and Terrestrial Objects meant to be printed and Readkey.
+* Version: 0.3 - Added GiantPlanet and Terrestrial Objects meant to be printed and Readkey and tested.
 */
 namespace Abstractplanets
 {
