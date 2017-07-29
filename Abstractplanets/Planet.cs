@@ -117,11 +117,11 @@ namespace Abstractplanets
 
 		public override string ToString()
 		{
-			string outputString = "";
+			string String = "";
 
-			outputString = "Name:" + Name + "\n" + "Diameter:" + Diameter + "\n" + "Mass:" + Mass + "M" + "\n";
+			String = "Name of the planet:" + Name + "\n" + "Diameter of the planet:" + Diameter + "\n" + "Mass of the planet:" + Mass + "M" + "\n";
 
-			return outputString;
+			return String;
 
 		}
 	}

@@ -13,7 +13,7 @@ implement both the IHasMoons and IHasRings interfaces
 */
 namespace Abstractplanets
 {
-	class GiantPlanet : Planet
+	class GiantPlanet : Planet, IHasMoons, IHasRings
 	{
 		/*Private instance variables*/
 		private string _type;
